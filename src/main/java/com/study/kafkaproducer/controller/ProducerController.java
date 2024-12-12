@@ -14,8 +14,8 @@ public class ProducerController {
         this.producerService = producerService;
     }
 
-    @PostMapping("/message")
-    public void publishMessage(@RequestParam String message) {
-        producerService.pub(message);
-    }
+//    @PostMapping("/message")
+//    public void publishMessage(@RequestParam String message) {
+//        producerService.pub(message);
+//    }
 }
